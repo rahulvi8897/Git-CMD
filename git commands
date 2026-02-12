@@ -1,0 +1,46 @@
+//To Show the alias config for git 
+
+nano ~/.bash_profile
+
+
+//Alias 
+
+alias gc='git commit'
+alias gbr='git branch'
+alias gcur='git branch --show-current'
+
+alias gst='git status'
+alias ga='git add'
+alias gcmsg='git commit -m'
+alias gpuo='git push origin'
+alias gplo='git pull origin'
+
+alias gd='git diff'
+alias gb='git branch'
+alias gcb='git checkout -b'
+alias gco='git checkout'
+
+alias gsta='git status'
+alias gstaa='git stash apply'
+alias  gfo='git fetch origin'
+
+
+
+alias gcp='git cherry-pick'
+alias gcpa='git cherry-pick --abort'
+alias gcpc='git cherry-pick --continue'
+         
+          
+alias gpr='git pull --rebase origin'
+        
+alias gl='git log' 
+alias gl5= 'git log'alias gl5='git log -5 --oneline'
+      
+alias gr='git reflog'
+
+    
+alias gpsup='git push --set-upstream origin $(git branch --show-current)'
+alias gplup='git pull --set-upstream origin $(git branch --show-current)'
+    
+    
+alias gstl='git stash list'
